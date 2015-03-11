@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>MYSOMAIYA</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body lang="en">
+
+	<header>
+		<img src="img/logo.png" id="logo">
+		<a href="collegecomrade.php"><img src="img/collegecomrade.png" id="logo"></a>
+	</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <div id="login-form">
+
+        <h3>Login</h3>
+
+        <fieldset>
+
+            <form action="javascript:void(0);" method="post">
+                <?php
+                require_once("connection.php");
+                $email=$_POST['email'];
+                $password=$_POST['password'];
+                if (isset($_POST['submit'])) {
+                $query=mysqli_query($conn,"SELECT * from 'members' where 'email'='$email' and 'password'='$password'");
+                if ($query) {
+                   echo "Database Verified";
+                   }else{
+                    echo "Sorry";
+                   }
+               }
+                ?>
+                <input name="email" type="email" required value="Email" onBlur="if(this.value=='')this.value='Email'" onFocus="if(this.value=='Email')this.value='' ">
+
+                <input name="password" type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' ">
+
+                <input type="submit" value="Login" name="submit">
+
+                <footer class="clearfix">
+
+                    <p><span class="info">?</span><a href="#">Forgot Password</a></p>
+                    <p><span class="info">&bull;</span><a href="register.php">New Here? SIGN UP</a></p>
+
+                </footer>
+
+            </form>
+
+        </fieldset>
+
+    </div>
+  <script src='http://codepen.io/assets/libs/fullpage/none.js'></script>
+
+
+</body>
+</html>

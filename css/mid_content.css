@@ -1,0 +1,160 @@
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+nav
+{
+	position: relative;
+	left: 35%;
+	top: 6px;	
+}
+.mid_content
+{
+	width: 650px;
+	background: #fff;
+	position: absolute;
+	left: 25%;
+	margin-top: 30px;
+}
+.mid_content h2
+{
+	margin-top: 0px;lative
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+}
+
+.footer
+{
+	position: relative;
+	top: 550px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 150px;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	background: #3a3d3e;
+}
+.sidebar_left
+{
+	position: absolute;
+	top: 40px;
+	width: 200px;
+	background: #fff;
+	box-shadow: -3px 3px 1px #000;
+	left: 0%;
+}
+.sidebar_left h2
+{
+	margin-top: 0px;lative
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+}
+.sidebar_right
+{
+	position: absolute;
+	top: 40px;
+	width: 172px;
+	background: #fff;
+	box-shadow: 3px 3px 1px #000;
+	right: 0%;
+}
+.sidebar_right h2
+{
+	margin-top: 0px;
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+nav
+{
+	position: relative;
+	left: 42%;
+	top: 6px;	
+}
+.mid_content
+{
+	width: 650px;
+	background: #fff;
+	position: absolute;
+	left: 35%;
+	margin-top: 30px;
+}
+.mid_content h2
+{
+	margin-top: 0px;lative
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+}
+
+.footer
+{
+	position: relative;
+	top: 550px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 150px;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	background: #3a3d3e;
+}
+.sidebar_left
+{
+	position: absolute;
+	top: 40px;
+	width: 300px;
+	background: #fff;
+	box-shadow: -3px 3px 1px #000;
+	left: 0%;
+}
+.sidebar_left h2
+{
+	margin-top: 0px;lative
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+}
+.sidebar_right
+{
+	position: absolute;
+	top: 40px;
+	width: 272px;
+	background: #fff;
+	box-shadow: 3px 3px 1px #000;
+	right: 0%;
+}
+.sidebar_right h2
+{
+	margin-top: 0px;
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+}
+}

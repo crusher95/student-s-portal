@@ -1,0 +1,18 @@
+if ($_FILES['image']['error']==0) {
+		if (($_FILES['image']['type']=="image/jpg") || ($_FILES['image']['type']=='image/jpeg') || ($_FILES['image']['type']=='image/png') || ($_FILES['image']['type']=='image/gif'))
+		{	
+		if ($_FILES['image']['size']<2000000) {
+		move_uploaded_file($_FILES['image']['tmp_name'], "img/upload".$_FILES['image']['name']);
+		$image=$_FILES['image']['tmp_name'];
+		$image_name=$_FILES['image']['name'];
+		
+		}else{
+		echo "<p style='color:red'>Profile Picture Size Exceeding 2mb!!</p>";	
+		}
+	}else
+	{
+		echo "<p style='color:red'>Please Enter a file of jpeg,jpg,png and gif only</p>";
+	}
+}else{
+		echo "<p style='color:red'>Error Uploading the file!!</p>";
+	}

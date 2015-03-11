@@ -1,0 +1,172 @@
+body{
+	background: url('../img/bg_mobile.jpg');
+}
+.profile
+{
+	width: 300px;
+}
+h1
+{
+	text-align: center;
+		color: #fff;
+	text-shadow:1px 1px #000;
+	font-size: 37px;
+	font-family: 'Oswald', sans-serif;
+
+}
+h3
+{
+		font-family: 'Open Sans Condensed', sans-serif;
+color: #204c87;
+	text-shadow:1px 1px #000;
+	text-align: center;
+
+}
+nav
+{
+	text-align: center;
+}
+nav ul
+{
+	list-style-type: none;
+
+}
+.mid_content{
+
+	background: #fff;
+	box-shadow: 3px 3px 1px #000;
+}
+.sidebar_right
+{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	background: #fff;
+	box-shadow: 3px 3px 1px #000;
+}
+.sidebar_left
+{
+	text-align:center;
+	font-family: 'Dosis', sans-serif;
+	background: #fff;
+	box-shadow: 3px 3px 1px #000;
+}
+e{
+	color: #e55959;
+}
+nav ul li
+{
+	float: left;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #43abc1;
+	font-size: 25px;
+
+	text-transform: uppercase;
+}
+.footer h2
+{
+	font-size: 15px;
+	padding: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer h4{
+
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer{
+	background: #fff;
+	bottom: 0px;
+}
+.mid_content h2{margin-top: 0px;lative
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+
+}
+.sidebar_right ul
+{
+	list-style-type: none;
+}
+.sidebar_left ul
+{
+	list-style-type: none;
+}
+.sidebar_right h2{
+	margin-top: 0px;lative
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+
+}
+.sidebar_left h2{
+	margin-top: 0px;lative
+	height: 50px;
+	padding-top: 5px;
+	font-family: 'Dosis', sans-serif;
+	background: #e7cfcf;
+	text-align: center;
+
+}
+nav ul
+{
+	list-style-type: none;
+
+}
+.current{
+	background: #9B1C26;
+	color: #fff;
+
+}
+nav ul li a
+{
+font-family:Arial;
+font-size:15px;
+text-decoration: none;
+float:left;
+padding:10px;
+background-color:#ccc;
+color:#333;
+border-bottom:1px;
+border-bottom-color:#000000;
+border-bottom-style:solid;
+
+}
+nav ul li a:hover
+{
+background-color:#9B1C26;
+color: #fff;
+padding-bottom:12px;
+border-bottom:2px;
+border-bottom-color:#000000;
+border-bottom-style:solid;
+margin:-1px;
+}
+nav ul li
+{
+display: inline;
+}
+#hidden{
+	display: none;
+}
+.about{
+	background: #ccc;
+}
+t{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+.sidebar_right a
+{
+	text-decoration: none;
+
+}
+.sidebar_right h3{
+	background: #ccc;
+}
